@@ -1,0 +1,41 @@
+<mat-drawer-container class="container" autosize>
+    <mat-drawer #drawer class="sidenav" mode="side">
+        <img src="assets/img/logo ailos.png" alt="logo">
+          <mat-nav-list class="nav-list">
+          <a mat-list-item routerLink="buscar" >
+            <i class="material-icons" >search</i>
+           
+          </a>
+
+          <a mat-list-item routerLink="buscar" >
+            <i  class="material-icons">star</i>
+           
+          </a>
+
+          <a mat-list-item routerLink="buscar" >
+            <i class="material-icons">sms</i>
+           
+          </a>
+
+          <a mat-list-item routerLink="buscar" >
+            <i class="material-icons">tune</i>
+           
+          </a>
+
+          <a mat-list-item routerLink="buscar" >
+            <i class="material-icons">flood</i>
+           
+          </a>
+          
+      </mat-nav-list>
+    </mat-drawer>
+  
+    <div class="sidenav-content">
+        
+      <button class="menu mat-elevation-z8" (click)="drawer.toggle()" mat-icon-button>
+      <mat-icon>menu</mat-icon> 
+      </button>
+      <router-outlet></router-outlet>
+    </div>
+  
+  </mat-drawer-container>

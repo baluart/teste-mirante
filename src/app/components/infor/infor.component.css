@@ -1,0 +1,38 @@
+.container{
+    margin-left: 3rem;
+    display: flex;
+    
+}
+
+.card1{
+    width: 20%;
+    
+  
+}
+
+.card2{
+    width: 20%;
+    margin-left: 1rem;
+  
+}
+
+.card3{
+    width: 20%;
+    margin-left: 1rem;
+  
+}
+
+mat-card-title{
+    font-size: 1rem;
+}
+
+a{
+    color: rgb(22, 92, 125);
+}
+
+.iconesintuacao{
+    color: black;
+}
+.iconeregular{
+    color: green;
+}
